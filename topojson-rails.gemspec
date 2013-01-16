@@ -5,7 +5,7 @@ require 'topojson-rails/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "topojson-rails"
-  gem.version       = topojson::Rails::VERSION
+  gem.version       = Topojson::Rails::VERSION
   gem.authors       = ["Vlad Gorodetsky"]
   gem.email         = ["v@gor.io"]
   gem.description   = %q{An extension of GeoJSON that encodes topology.}
