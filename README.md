@@ -18,6 +18,17 @@ Add the following directive to your JavaScript manifest file (application.js):
 
     //= require topojson
 
+## HighSecurity
+
+To ensure that you're including a gem with original code, you can install this gem using a HighSecurity policy.
+
+    gem cert --add <(curl -Ls https://gist.github.com/bai/5150087/raw/public_cert.pem)
+    bundle install --trust-policy HighSecurity
+
+Or, if you don't use bundler:
+
+    gem install topojson-rails -P HighSecurity
+
 ## Contributing
 
 1. Fork it
