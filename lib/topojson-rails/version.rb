@@ -1,5 +1,5 @@
 module Topojson
   module Rails
-    VERSION = "0.0.32.2"
+    VERSION = "1.3.0"
   end
 end
